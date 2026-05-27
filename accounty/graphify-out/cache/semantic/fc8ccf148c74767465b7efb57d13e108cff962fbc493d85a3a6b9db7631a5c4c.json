@@ -1,0 +1,1 @@
+{"nodes": [{"id": "setup_auth_agent", "label": "Convex Setup Auth Agent Config", "file_type": "document", "source_file": ".claude/skills/convex-setup-auth/agents/openai.yaml", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}

@@ -1,0 +1,523 @@
+{
+  "communities": {
+    "0": [
+      "accounty_skills_lock_convex_computedhash",
+      "accounty_skills_lock_convex_skillpath",
+      "accounty_skills_lock_convex_source",
+      "accounty_skills_lock_convex_sourcetype",
+      "accounty_skills_lock_skills",
+      "accounty_skills_lock_skills_convex",
+      "accounty_skills_lock_skills_convex_setup_auth",
+      "accounty_skills_lock_version",
+      "agents_md",
+      "ai_state_json",
+      "claude_md",
+      "concept_component_boundary",
+      "concept_guidelines_md",
+      "concept_widen_migrate_narrow",
+      "perf_audit_agent",
+      "quickstart_agent",
+      "quickstart_agent_mode",
+      "quickstart_convex_agent_mode",
+      "quickstart_convex_dev_once",
+      "quickstart_convex_provider",
+      "quickstart_convex_react_client",
+      "quickstart_npm_create_convex",
+      "quickstart_skill",
+      "quickstart_template_nextjs_shadcn",
+      "quickstart_template_react_vite_shadcn",
+      "ref_advanced_patterns",
+      "ref_function_budget",
+      "ref_hot_path_rules",
+      "ref_hybrid_components",
+      "ref_local_components",
+      "ref_migration_patterns",
+      "ref_migrations_component",
+      "ref_packaged_components",
+      "skill_convex_routing",
+      "skill_create_component",
+      "skill_create_component_agent_yaml",
+      "skill_migration_helper",
+      "skill_migration_helper_agent_yaml",
+      "skill_performance_audit",
+      "skills_lock_json"
+    ],
+    "1": [
+      "accounty_package_dependencies",
+      "accounty_package_dependencies_clerk_clerk_react",
+      "accounty_package_dependencies_clerk_nextjs",
+      "accounty_package_dependencies_convex",
+      "accounty_package_dependencies_next",
+      "accounty_package_dependencies_react",
+      "accounty_package_dependencies_react_dom",
+      "accounty_package_dependencies_svix",
+      "accounty_package_devdependencies",
+      "accounty_package_devdependencies_convex_dev_eslint_plugin",
+      "accounty_package_devdependencies_eslint",
+      "accounty_package_devdependencies_prettier",
+      "accounty_package_devdependencies_tailwindcss_postcss",
+      "accounty_package_devdependencies_types_node",
+      "accounty_package_devdependencies_types_react",
+      "accounty_package_devdependencies_typescript",
+      "accounty_package_name",
+      "accounty_package_private",
+      "accounty_package_scripts",
+      "accounty_package_scripts_build",
+      "accounty_package_scripts_dev",
+      "accounty_package_scripts_lint",
+      "accounty_package_scripts_start",
+      "accounty_package_version",
+      "eslint_config",
+      "package_json",
+      "readme_md",
+      "readme_md_clerk",
+      "readme_md_convex_backend",
+      "readme_md_nextjs",
+      "readme_md_tailwind"
+    ],
+    "2": [
+      "auth_get_user_identity",
+      "auth_token_identifier",
+      "convex_guidelines",
+      "convex_readme",
+      "guidelines_action_node_runtime",
+      "guidelines_cron_jobs",
+      "guidelines_function_registration",
+      "guidelines_http_endpoints",
+      "guidelines_no_filter_use_withindex",
+      "guidelines_pagination",
+      "guidelines_schema_rules",
+      "guidelines_testing",
+      "guidelines_validators",
+      "perf_actions_heavy_work",
+      "perf_aggregate_component",
+      "perf_cursor_batch",
+      "perf_date_now_anti_pattern",
+      "perf_denormalization",
+      "perf_digest_tables",
+      "perf_function_budget",
+      "perf_hot_path_rules",
+      "perf_isolate_churn_fields",
+      "perf_occ_conflicts",
+      "perf_occ_optimistic_concurrency",
+      "perf_point_in_time_reads",
+      "perf_push_filters_storage",
+      "perf_scheduled_secondary_work",
+      "perf_subscription_cost",
+      "perf_subscription_reactivity",
+      "perf_transaction_limits",
+      "perf_unbounded_collect"
+    ],
+    "3": [
+      "concept_generated_code",
+      "convex_generated_server_d_ts",
+      "datamodel_dts_DataModel",
+      "datamodel_dts_Doc",
+      "datamodel_dts_Id",
+      "datamodel_dts_TableNames",
+      "datamodel_dts_schema_import",
+      "generated_server_d_actionctx",
+      "generated_server_d_mutationctx",
+      "generated_server_d_queryctx",
+      "server_dts_ActionCtx",
+      "server_dts_DatabaseReader",
+      "server_dts_DatabaseWriter",
+      "server_dts_MutationCtx",
+      "server_dts_QueryCtx",
+      "server_dts_action",
+      "server_dts_internalAction",
+      "server_dts_internalQuery",
+      "server_dts_mutation",
+      "server_dts_query",
+      "server_js_action",
+      "server_js_internalAction",
+      "server_js_internalMutation",
+      "server_js_internalQuery",
+      "server_js_mutation",
+      "server_js_query"
+    ],
+    "4": [
+      "auth0_ref_auth0_setup",
+      "auth_auth0_env_vars",
+      "auth_clerk_env_vars",
+      "auth_config_ts",
+      "auth_convex_auth_packages",
+      "auth_convex_provider_with_auth",
+      "auth_provider_auth0",
+      "auth_provider_clerk",
+      "auth_provider_convex_auth",
+      "auth_provider_workos",
+      "auth_workos_env_vars",
+      "clerk_ref_clerk_setup",
+      "clerk_ref_convex_provider_with_clerk",
+      "convex_auth_ref_auth_tables",
+      "convex_auth_ref_convex_auth_setup",
+      "setup_auth_agent",
+      "setup_auth_auth_provider_choice",
+      "setup_auth_convex_setup_auth_skill",
+      "setup_auth_openai_agent",
+      "setup_auth_protect_backend_functions",
+      "setup_auth_skill",
+      "workos_ref_convex_json",
+      "workos_ref_workos_setup"
+    ],
+    "5": [
+      "convex_skill_ai_files_install",
+      "convex_skill_routing_skill",
+      "migration_helper_openai_agent",
+      "migration_helper_skill",
+      "migration_helper_widen_migrate_narrow",
+      "migration_patterns_dual_write",
+      "migration_patterns_required_field",
+      "migration_patterns_split_table",
+      "migrations_component_dry_run",
+      "migrations_component_installation",
+      "occ_conflicts_occ_resolution",
+      "occ_conflicts_occ_triggers",
+      "occ_conflicts_read_set_narrowing",
+      "occ_conflicts_scheduled_functions",
+      "perf_hot_documents",
+      "performance_audit_signal_routing",
+      "performance_audit_skill",
+      "subscription_cost_aggregate_component",
+      "subscription_cost_date_now_antipattern",
+      "subscription_cost_isolate_fields",
+      "subscription_cost_point_in_time_reads",
+      "subscription_cost_skip_pattern",
+      "subscription_cost_subscription_management"
+    ],
+    "6": [
+      "concept_authentication_security",
+      "concept_component_modularity",
+      "concept_data_migration",
+      "concept_performance_monitoring",
+      "concept_quick_launch",
+      "convex_create_component_icon",
+      "convex_migration_helper_icon",
+      "convex_performance_audit_icon",
+      "convex_quickstart_icon",
+      "convex_setup_auth_icon",
+      "convex_skill_ecosystem",
+      "icon_convex_create_component",
+      "public_convex_brand_logo",
+      "visual_theme_3d_cube",
+      "visual_theme_circular_arrows",
+      "visual_theme_convex_brand_colors",
+      "visual_theme_cpu_chip",
+      "visual_theme_heroicons",
+      "visual_theme_padlock",
+      "visual_theme_play_button",
+      "visual_theme_play_circle"
+    ],
+    "7": [
+      "app_layout",
+      "app_layout_geistmono",
+      "app_layout_geistsans",
+      "app_layout_metadata",
+      "app_layout_rootlayout",
+      "app_layout_tsx",
+      "app_page",
+      "app_sign_in_sign_in_page_tsx",
+      "app_sign_up_sign_up_page_tsx",
+      "components_convexclientprovider_convex",
+      "convex_client_provider",
+      "convex_generated_api_dts",
+      "convex_http",
+      "convex_myFunctions",
+      "convex_schema",
+      "convex_users",
+      "proxy_middleware",
+      "server_inner",
+      "server_page",
+      "signin_page",
+      "signup_page"
+    ],
+    "8": [
+      "accounty_tsconfig_compileroptions",
+      "accounty_tsconfig_compileroptions_allowjs",
+      "accounty_tsconfig_compileroptions_esmoduleinterop",
+      "accounty_tsconfig_compileroptions_incremental",
+      "accounty_tsconfig_compileroptions_isolatedmodules",
+      "accounty_tsconfig_compileroptions_jsx",
+      "accounty_tsconfig_compileroptions_lib",
+      "accounty_tsconfig_compileroptions_module",
+      "accounty_tsconfig_compileroptions_moduleresolution",
+      "accounty_tsconfig_compileroptions_noemit",
+      "accounty_tsconfig_compileroptions_paths",
+      "accounty_tsconfig_compileroptions_plugins",
+      "accounty_tsconfig_compileroptions_resolvejsonmodule",
+      "accounty_tsconfig_compileroptions_skiplibcheck",
+      "accounty_tsconfig_compileroptions_strict",
+      "accounty_tsconfig_compileroptions_target",
+      "accounty_tsconfig_exclude",
+      "accounty_tsconfig_include",
+      "accounty_tsconfig_paths",
+      "tsconfig_json"
+    ],
+    "9": [
+      "app_page_content",
+      "app_page_home",
+      "app_page_resourcecard",
+      "app_page_signinform",
+      "app_page_tsx",
+      "app_server_inner_tsx",
+      "app_server_page_tsx",
+      "convex_generated_api_d_ts",
+      "convex_generated_api_js",
+      "convex_myfunctions_addnumber",
+      "convex_myfunctions_listnumbers",
+      "convex_myfunctions_myaction",
+      "convex_myfunctions_ts",
+      "generated_api_api",
+      "generated_api_components",
+      "generated_server_action",
+      "generated_server_mutation",
+      "generated_server_query",
+      "server_inner_home",
+      "server_page_serverpage"
+    ],
+    "10": [
+      "convex_generated_server_js",
+      "convex_http_http",
+      "convex_http_internalusers",
+      "convex_http_svixid",
+      "convex_http_svixsignature",
+      "convex_http_svixtimestamp",
+      "convex_http_ts",
+      "convex_http_wh",
+      "convex_users_create",
+      "convex_users_getbyclerkid",
+      "convex_users_remove",
+      "convex_users_ts",
+      "convex_users_update",
+      "generated_api_internal",
+      "generated_server_httpaction",
+      "generated_server_internalmutation",
+      "generated_server_internalquery"
+    ],
+    "11": [
+      "convex_tsconfig_compileroptions",
+      "convex_tsconfig_compileroptions_allowjs",
+      "convex_tsconfig_compileroptions_allowsyntheticdefaultimports",
+      "convex_tsconfig_compileroptions_forceconsistentcasinginfilenames",
+      "convex_tsconfig_compileroptions_isolatedmodules",
+      "convex_tsconfig_compileroptions_jsx",
+      "convex_tsconfig_compileroptions_lib",
+      "convex_tsconfig_compileroptions_module",
+      "convex_tsconfig_compileroptions_moduleresolution",
+      "convex_tsconfig_compileroptions_noemit",
+      "convex_tsconfig_compileroptions_skiplibcheck",
+      "convex_tsconfig_compileroptions_strict",
+      "convex_tsconfig_compileroptions_target",
+      "convex_tsconfig_compileroptions_types",
+      "convex_tsconfig_exclude",
+      "convex_tsconfig_include",
+      "convex_tsconfig_json"
+    ],
+    "12": [
+      "advanced_patterns_function_handles",
+      "create_component_boundary_rules",
+      "create_component_openai_agent",
+      "create_component_skill",
+      "hybrid_components_hybrid_shape",
+      "local_components_local_shape",
+      "packaged_components_packaged_shape"
+    ],
+    "13": [
+      "ai_ai_files_state_agentskillssha",
+      "ai_ai_files_state_agentsmdsectionhash",
+      "ai_ai_files_state_claudemdhash",
+      "ai_ai_files_state_guidelineshash",
+      "convex_generated_ai_ai_files_state_json"
+    ],
+    "14": [
+      "convex_generated_datamodel_d_ts",
+      "convex_schema_ts",
+      "generated_datamodel_d_doc",
+      "generated_datamodel_d_id",
+      "generated_datamodel_d_tablenames"
+    ],
+    "15": [
+      "accounty_proxy_config",
+      "accounty_proxy_isprotectedroute",
+      "proxy_ts"
+    ],
+    "16": [
+      "accounty_postcss_config_config",
+      "postcss_config"
+    ],
+    "17": [
+      "server_dts_httpAction",
+      "server_js_httpAction"
+    ],
+    "18": [
+      "next_config_ts"
+    ],
+    "19": [
+      "convex_auth_config_ts"
+    ],
+    "20": [
+      "generated_server_internalaction"
+    ],
+    "21": [
+      "next_config"
+    ],
+    "22": [
+      "tsconfig_root"
+    ],
+    "23": [
+      "convex_tsconfig"
+    ],
+    "24": [
+      "advanced_patterns_globals_table"
+    ],
+    "25": [
+      "advanced_patterns_class_based_wrapper"
+    ],
+    "26": [
+      "advanced_patterns_derive_validators"
+    ]
+  },
+  "cohesion": {
+    "0": 0.08846153846153847,
+    "1": 0.06666666666666667,
+    "2": 0.07526881720430108,
+    "3": 0.08307692307692308,
+    "4": 0.12648221343873517,
+    "5": 0.1067193675889328,
+    "6": 0.23333333333333334,
+    "7": 0.11904761904761904,
+    "8": 0.1,
+    "9": 0.12105263157894737,
+    "10": 0.11764705882352941,
+    "11": 0.11764705882352941,
+    "12": 0.2857142857142857,
+    "13": 0.4,
+    "14": 0.4,
+    "15": 0.6666666666666666,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0
+  },
+  "gods": [
+    {
+      "id": "quickstart_skill",
+      "label": "Convex Quickstart Skill",
+      "degree": 19
+    },
+    {
+      "id": "accounty_tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 16
+    },
+    {
+      "id": "datamodel_dts_DataModel",
+      "label": "DataModel Type",
+      "degree": 15
+    },
+    {
+      "id": "convex_tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 14
+    },
+    {
+      "id": "skill_migration_helper",
+      "label": "Convex Migration Helper Skill",
+      "degree": 13
+    },
+    {
+      "id": "convex_guidelines",
+      "label": "Convex AI Guidelines",
+      "degree": 13
+    },
+    {
+      "id": "skill_create_component",
+      "label": "Convex Create Component Skill",
+      "degree": 12
+    },
+    {
+      "id": "auth_config_ts",
+      "label": "convex/auth.config.ts",
+      "degree": 11
+    },
+    {
+      "id": "convex_quickstart_icon",
+      "label": "Convex Quickstart Icon (Play Circle)",
+      "degree": 11
+    },
+    {
+      "id": "perf_audit_agent",
+      "label": "Convex Performance Audit Agent",
+      "degree": 10
+    }
+  ],
+  "surprises": [
+    {
+      "source": "ConvexClientProvider",
+      "target": "convex/auth.config.ts",
+      "source_files": [
+        "components/ConvexClientProvider.tsx",
+        ".claude/skills/convex-setup-auth/SKILL.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code \u2194 doc); connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "convex/auth.config.ts",
+      "target": "Convex Users Module",
+      "source_files": [
+        ".claude/skills/convex-setup-auth/SKILL.md",
+        "convex/users.ts"
+      ],
+      "confidence": "INFERRED",
+      "relation": "shares_data_with",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code \u2194 doc); connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "ESLint Config",
+      "target": "Convex My Functions",
+      "source_files": [
+        "eslint.config.mjs",
+        "convex/myFunctions.ts"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities; peripheral node `ESLint Config` unexpectedly reaches hub `Convex My Functions`"
+    },
+    {
+      "source": "AI Files State (Hashes)",
+      "target": "Convex AI Guidelines guidelines.md",
+      "source_files": [
+        "convex/_generated/ai/ai-files.state.json",
+        "CLAUDE.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code \u2194 doc); connects across different repos/directories"
+    },
+    {
+      "source": "Hot Document Splitting Pattern",
+      "target": "Isolate Frequently-Updated Fields",
+      "source_files": [
+        ".claude/skills/convex-performance-audit/references/occ-conflicts.md",
+        ".agents/skills/convex-performance-audit/references/subscription-cost.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

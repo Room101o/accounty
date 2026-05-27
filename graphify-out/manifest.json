@@ -1,0 +1,642 @@
+{
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components.json": {
+    "mtime": 1779840811.857798,
+    "ast_hash": "63b2c4fcf776fec9dbc76e94ea0d70c6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\eslint.config.mjs": {
+    "mtime": 1779400516.0,
+    "ast_hash": "13acc7103302ecb0361130192cb22520",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\next.config.ts": {
+    "mtime": 1779400516.0,
+    "ast_hash": "9b77af189a21a7a64e4bd7a426f64176",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\package.json": {
+    "mtime": 1779840895.8664114,
+    "ast_hash": "8b1597fba2254a8e52d3bdd47d94f5cb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\postcss.config.mjs": {
+    "mtime": 1779400516.0,
+    "ast_hash": "675899342e765a4d16acd75a53389101",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\proxy.ts": {
+    "mtime": 1779841039.5025673,
+    "ast_hash": "88d6eb9a6f7be30bf688b9261e97ce49",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\skills-lock.json": {
+    "mtime": 1779656509.8027513,
+    "ast_hash": "e9d7d7e1fcf4aa187bcb78cbe3e40306",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\tsconfig.json": {
+    "mtime": 1779400516.0,
+    "ast_hash": "7831df54b0184c9a88a681bd02b3e9e4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\layout.tsx": {
+    "mtime": 1779841053.796643,
+    "ast_hash": "14864aa42cc2ffad7f3f2c13880930ab",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\page.tsx": {
+    "mtime": 1779841146.077232,
+    "ast_hash": "cfd4842cc6996290e7d8ef4b709fcecd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\(app)\\layout.tsx": {
+    "mtime": 1779840974.3387878,
+    "ast_hash": "e6e59f265d4780efa1bda3c5673c95ab",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\(app)\\accounts\\page.tsx": {
+    "mtime": 1779841004.9707322,
+    "ast_hash": "0826b39ed374451089df01028e80f94f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\(app)\\billing\\page.tsx": {
+    "mtime": 1779841009.1682048,
+    "ast_hash": "d75e1bcadcbc58aeef760355c77a4d6e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\(app)\\contacts\\page.tsx": {
+    "mtime": 1779841007.0627685,
+    "ast_hash": "3ce6a91d3980c62969a197e87ab03190",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\(app)\\dashboard\\page.tsx": {
+    "mtime": 1779840985.3544824,
+    "ast_hash": "c9885136481a8bde286041e297268a78",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\(app)\\expenses\\page.tsx": {
+    "mtime": 1779841004.1736937,
+    "ast_hash": "89dee832db0d0de0cab5feaf98adaf4c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\(app)\\invoices\\page.tsx": {
+    "mtime": 1779841002.6722114,
+    "ast_hash": "7e8b5327dc7a5299d7ae165e0a7a998e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\(app)\\reports\\page.tsx": {
+    "mtime": 1779841007.653382,
+    "ast_hash": "4750cc0ec0fb40d11db3636be2eb8170",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\(app)\\settings\\page.tsx": {
+    "mtime": 1779841010.0705497,
+    "ast_hash": "a0e50de3c09356e199f56f53d05147f3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\server\\inner.tsx": {
+    "mtime": 1779400516.0,
+    "ast_hash": "6c624bae0ea7a1ebdf0c1b2ea73102f3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\server\\page.tsx": {
+    "mtime": 1779400516.0,
+    "ast_hash": "99ffa840dab8066d68d79d59a52ecd36",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\sign-in\\[[...sign-in]]\\page.tsx": {
+    "mtime": 1779657284.105693,
+    "ast_hash": "8aa14abccb7f94dd416d94d0a98325ca",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\app\\sign-up\\[[...sign-up]]\\page.tsx": {
+    "mtime": 1779657284.1066928,
+    "ast_hash": "67e85a66812d927cdb140db4da7c0e9e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ConvexClientProvider.tsx": {
+    "mtime": 1779400516.0,
+    "ast_hash": "af9b223afc9ce5997a553e9013a36d83",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\layout\\app-header.tsx": {
+    "mtime": 1779840967.8579283,
+    "ast_hash": "300664b92d0fadae9a845ce6318673bc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\layout\\app-sidebar.tsx": {
+    "mtime": 1779841175.9609916,
+    "ast_hash": "0839d7803729f51291d76c3f9e76c169",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\alert.tsx": {
+    "mtime": 1779840861.0999568,
+    "ast_hash": "739c28799fae98b4fa01132494788e85",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\avatar.tsx": {
+    "mtime": 1779840860.1542602,
+    "ast_hash": "8b41492907a73176027427a3f0fd2302",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\badge.tsx": {
+    "mtime": 1779840860.0698228,
+    "ast_hash": "e4ec840217040d5630ee6ed7213a1d72",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\breadcrumb.tsx": {
+    "mtime": 1779841140.3382535,
+    "ast_hash": "930d294d904c67a97eadeb26f5ac6cb1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\button.tsx": {
+    "mtime": 1779840827.688049,
+    "ast_hash": "705bf3552a39e0c722665ccbecb30654",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\card.tsx": {
+    "mtime": 1779840859.9828117,
+    "ast_hash": "77a10bd948ca424972a28e704a3df604",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\dialog.tsx": {
+    "mtime": 1779840861.5156424,
+    "ast_hash": "d9618a63d34473ec512321cc12d43692",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\dropdown-menu.tsx": {
+    "mtime": 1779840860.2912798,
+    "ast_hash": "e6107cbb2088437e76a858f75b5a0280",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\input.tsx": {
+    "mtime": 1779840860.8697119,
+    "ast_hash": "0607b02d99a2e92f9509223f36ccc6ec",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\label.tsx": {
+    "mtime": 1779840860.9469204,
+    "ast_hash": "a70440da86bfc6a07f15197cca48cb08",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\progress.tsx": {
+    "mtime": 1779840861.1769674,
+    "ast_hash": "aa71e8ceb68b33af5ed5799f42cd873e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\scroll-area.tsx": {
+    "mtime": 1779840860.5191562,
+    "ast_hash": "ac8fc719d0fd13c77c933474827337da",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\select.tsx": {
+    "mtime": 1779840860.7987044,
+    "ast_hash": "ab95f478cb74d1906b07425c15b124cc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\separator.tsx": {
+    "mtime": 1779840860.3692806,
+    "ast_hash": "3de2dca3e47ab29c4b1f632671545628",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\sheet.tsx": {
+    "mtime": 1779840861.6091561,
+    "ast_hash": "43ad8bec991f7a28d2aa22d4f374e6b7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\sidebar.tsx": {
+    "mtime": 1779840861.7661896,
+    "ast_hash": "9936c9b77d3af2d69fa40d2eb468bcbd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\skeleton.tsx": {
+    "mtime": 1779840861.2482603,
+    "ast_hash": "0e6e825c43d858d98c9903f4da975382",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\table.tsx": {
+    "mtime": 1779840860.5896733,
+    "ast_hash": "44f87727e60080863edb00fdd2fcd8da",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\tabs.tsx": {
+    "mtime": 1779840860.6951935,
+    "ast_hash": "429035bc858475cd3bcedbb08a5ba8da",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\textarea.tsx": {
+    "mtime": 1779840861.0234363,
+    "ast_hash": "d448d2a90e48542e51b93a1189127bf2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\components\\ui\\tooltip.tsx": {
+    "mtime": 1779840860.442794,
+    "ast_hash": "6566a444ce6c0a87d6611903430534fa",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\auth.config.ts": {
+    "mtime": 1779658163.5425568,
+    "ast_hash": "751f3553b4fa278483e97660bff787a4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\http.ts": {
+    "mtime": 1779919608.2287896,
+    "ast_hash": "0841c2fd9c6b2046cd4f8f6cabfea773",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\myFunctions.ts": {
+    "mtime": 1779400516.0,
+    "ast_hash": "8880634d1e983b782f2604ed53d2d0b1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\schema.ts": {
+    "mtime": 1779919585.1198313,
+    "ast_hash": "544480e2a3afcadd850d8e36aab470d8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\tsconfig.json": {
+    "mtime": 1779400516.0,
+    "ast_hash": "e87faa74e11bb10a6b2489fcf7859cb1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\users.ts": {
+    "mtime": 1779738645.6228895,
+    "ast_hash": "a8f6ab098070d731b54c08795b4e44d8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\_generated\\api.d.ts": {
+    "mtime": 1779400516.0,
+    "ast_hash": "86bd9c791d2187d7a464e427b1be64e4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\_generated\\api.js": {
+    "mtime": 1779400516.0,
+    "ast_hash": "ea14005171d3e17b1b28a7139ad36d62",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\_generated\\dataModel.d.ts": {
+    "mtime": 1779400516.0,
+    "ast_hash": "af87bff09394971f8debeb5b8e9f8a70",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\_generated\\server.d.ts": {
+    "mtime": 1779400516.0,
+    "ast_hash": "a6d3e29e1cd98c6a0ebcf82d5074009e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\_generated\\server.js": {
+    "mtime": 1779400516.0,
+    "ast_hash": "cfc7a4ed084119abac0e51d79f525f4f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\_generated\\ai\\ai-files.state.json": {
+    "mtime": 1779656510.4458013,
+    "ast_hash": "bcf0bb8223f568556098e61472248351",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\hooks\\use-mobile.ts": {
+    "mtime": 1779840861.4252949,
+    "ast_hash": "209b5193af16624cdd89d3591480dd48",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\lib\\utils.ts": {
+    "mtime": 1779840827.8205793,
+    "ast_hash": "5a6fd53fdcf2be529e9cc0b718fde352",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\AGENTS.md": {
+    "mtime": 1779656496.3598912,
+    "ast_hash": "34281e9ffd842238948717ac9c01f392",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\CLAUDE.md": {
+    "mtime": 1779656496.3608913,
+    "ast_hash": "34281e9ffd842238948717ac9c01f392",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\README.md": {
+    "mtime": 1779400516.0,
+    "ast_hash": "418d50e20395ef10912d6e0697e37b91",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex\\SKILL.md": {
+    "mtime": 1779656507.867588,
+    "ast_hash": "a79b3d59cd110f16134585800b876874",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-create-component\\SKILL.md": {
+    "mtime": 1779656507.8535793,
+    "ast_hash": "ec825ce9174c3c08775e6189be9c8b80",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-create-component\\agents\\openai.yaml": {
+    "mtime": 1779656507.8545802,
+    "ast_hash": "0a7ae3f14ed8bbb7a59c8838d8e58bbc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-create-component\\references\\advanced-patterns.md": {
+    "mtime": 1779656507.8555803,
+    "ast_hash": "c521b78d48ce8ae0bd9613766063e463",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-create-component\\references\\hybrid-components.md": {
+    "mtime": 1779656507.8555803,
+    "ast_hash": "927a09d1ec50cffbcbe90c0d3b7145f7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-create-component\\references\\local-components.md": {
+    "mtime": 1779656507.856588,
+    "ast_hash": "fa7ca7ad7cb3a6599c0ed76ca7da1cf3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-create-component\\references\\packaged-components.md": {
+    "mtime": 1779656507.856588,
+    "ast_hash": "f2572e9e30a334c4ca4e96a54f16108b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-migration-helper\\SKILL.md": {
+    "mtime": 1779656507.856588,
+    "ast_hash": "d847b785f67062a334989c89485a81eb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-migration-helper\\agents\\openai.yaml": {
+    "mtime": 1779656507.8575883,
+    "ast_hash": "2e6fb6113c711b485feae55627659d19",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-migration-helper\\references\\migration-patterns.md": {
+    "mtime": 1779656507.8585885,
+    "ast_hash": "600a39ee758284cb13184a7c34fb0a9d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-migration-helper\\references\\migrations-component.md": {
+    "mtime": 1779656507.8585885,
+    "ast_hash": "405376f176f5e0a9857c69e86386c43e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-performance-audit\\SKILL.md": {
+    "mtime": 1779656507.8595884,
+    "ast_hash": "a87f528412cb9f4b9d1a2cae6b77392e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-performance-audit\\agents\\openai.yaml": {
+    "mtime": 1779656507.8605883,
+    "ast_hash": "fcceae233d93de638332d7419443bedf",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-performance-audit\\references\\function-budget.md": {
+    "mtime": 1779656507.8615887,
+    "ast_hash": "7d3345eaa4cadd3706cb7d0c245e91ed",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-performance-audit\\references\\hot-path-rules.md": {
+    "mtime": 1779656507.8615887,
+    "ast_hash": "8015a530db1586dc684daa40d37c9c5e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-performance-audit\\references\\occ-conflicts.md": {
+    "mtime": 1779656507.8615887,
+    "ast_hash": "67910e750e26c1d431d8d46e50eca490",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-performance-audit\\references\\subscription-cost.md": {
+    "mtime": 1779656507.8625884,
+    "ast_hash": "6af1c1c1b47d36d2b69002111ce372df",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-quickstart\\SKILL.md": {
+    "mtime": 1779656507.8635864,
+    "ast_hash": "6e611fcde8ac05c4c810dcd7fd5068a2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-quickstart\\agents\\openai.yaml": {
+    "mtime": 1779656507.8635864,
+    "ast_hash": "488d168fd73397e3f8d84cc2191214bb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-setup-auth\\SKILL.md": {
+    "mtime": 1779656507.8645887,
+    "ast_hash": "06366db7119b25ddf68175979166d1a7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-setup-auth\\agents\\openai.yaml": {
+    "mtime": 1779656507.8655868,
+    "ast_hash": "6085f6499e386748452563303ad8d075",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-setup-auth\\references\\auth0.md": {
+    "mtime": 1779656507.8665857,
+    "ast_hash": "65d097addc858433fe10e97882528ae1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-setup-auth\\references\\clerk.md": {
+    "mtime": 1779656507.8665857,
+    "ast_hash": "692b879bedc8bc5787e1813cd04cf711",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-setup-auth\\references\\convex-auth.md": {
+    "mtime": 1779656507.8665857,
+    "ast_hash": "6bf92f2d2db0304c5cb3d45751e9e082",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-setup-auth\\references\\workos-authkit.md": {
+    "mtime": 1779656507.867588,
+    "ast_hash": "43b20ab3d92d60ae7785ed73a024ad26",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex\\SKILL.md": {
+    "mtime": 1779656507.867588,
+    "ast_hash": "a79b3d59cd110f16134585800b876874",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-create-component\\SKILL.md": {
+    "mtime": 1779656507.8535793,
+    "ast_hash": "ec825ce9174c3c08775e6189be9c8b80",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-create-component\\agents\\openai.yaml": {
+    "mtime": 1779656507.8545802,
+    "ast_hash": "0a7ae3f14ed8bbb7a59c8838d8e58bbc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-create-component\\references\\advanced-patterns.md": {
+    "mtime": 1779656507.8555803,
+    "ast_hash": "c521b78d48ce8ae0bd9613766063e463",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-create-component\\references\\hybrid-components.md": {
+    "mtime": 1779656507.8555803,
+    "ast_hash": "927a09d1ec50cffbcbe90c0d3b7145f7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-create-component\\references\\local-components.md": {
+    "mtime": 1779656507.856588,
+    "ast_hash": "fa7ca7ad7cb3a6599c0ed76ca7da1cf3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-create-component\\references\\packaged-components.md": {
+    "mtime": 1779656507.856588,
+    "ast_hash": "f2572e9e30a334c4ca4e96a54f16108b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-migration-helper\\SKILL.md": {
+    "mtime": 1779656507.856588,
+    "ast_hash": "d847b785f67062a334989c89485a81eb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-migration-helper\\agents\\openai.yaml": {
+    "mtime": 1779656507.8575883,
+    "ast_hash": "2e6fb6113c711b485feae55627659d19",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-migration-helper\\references\\migration-patterns.md": {
+    "mtime": 1779656507.8585885,
+    "ast_hash": "600a39ee758284cb13184a7c34fb0a9d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-migration-helper\\references\\migrations-component.md": {
+    "mtime": 1779656507.8585885,
+    "ast_hash": "405376f176f5e0a9857c69e86386c43e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-performance-audit\\SKILL.md": {
+    "mtime": 1779656507.8595884,
+    "ast_hash": "a87f528412cb9f4b9d1a2cae6b77392e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-performance-audit\\agents\\openai.yaml": {
+    "mtime": 1779656507.8605883,
+    "ast_hash": "fcceae233d93de638332d7419443bedf",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-performance-audit\\references\\function-budget.md": {
+    "mtime": 1779656507.8615887,
+    "ast_hash": "7d3345eaa4cadd3706cb7d0c245e91ed",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-performance-audit\\references\\hot-path-rules.md": {
+    "mtime": 1779656507.8615887,
+    "ast_hash": "8015a530db1586dc684daa40d37c9c5e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-performance-audit\\references\\occ-conflicts.md": {
+    "mtime": 1779656507.8615887,
+    "ast_hash": "67910e750e26c1d431d8d46e50eca490",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-performance-audit\\references\\subscription-cost.md": {
+    "mtime": 1779656507.8625884,
+    "ast_hash": "6af1c1c1b47d36d2b69002111ce372df",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-quickstart\\SKILL.md": {
+    "mtime": 1779656507.8635864,
+    "ast_hash": "6e611fcde8ac05c4c810dcd7fd5068a2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-quickstart\\agents\\openai.yaml": {
+    "mtime": 1779656507.8635864,
+    "ast_hash": "488d168fd73397e3f8d84cc2191214bb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-setup-auth\\SKILL.md": {
+    "mtime": 1779656507.8645887,
+    "ast_hash": "06366db7119b25ddf68175979166d1a7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-setup-auth\\agents\\openai.yaml": {
+    "mtime": 1779656507.8655868,
+    "ast_hash": "6085f6499e386748452563303ad8d075",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-setup-auth\\references\\auth0.md": {
+    "mtime": 1779656507.8665857,
+    "ast_hash": "65d097addc858433fe10e97882528ae1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-setup-auth\\references\\clerk.md": {
+    "mtime": 1779656507.8665857,
+    "ast_hash": "692b879bedc8bc5787e1813cd04cf711",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-setup-auth\\references\\convex-auth.md": {
+    "mtime": 1779656507.8665857,
+    "ast_hash": "6bf92f2d2db0304c5cb3d45751e9e082",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-setup-auth\\references\\workos-authkit.md": {
+    "mtime": 1779656507.867588,
+    "ast_hash": "43b20ab3d92d60ae7785ed73a024ad26",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\README.md": {
+    "mtime": 1779400516.0,
+    "ast_hash": "3a0f15b8c7f1cc532958811e1ce6d311",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\_generated\\ai\\guidelines.md": {
+    "mtime": 1779656496.3588903,
+    "ast_hash": "e1d69cf237f235d870171f1c50306b82",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-create-component\\assets\\icon.svg": {
+    "mtime": 1779656507.8545802,
+    "ast_hash": "750ee31db4186a3a336f1c6376a15221",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-migration-helper\\assets\\icon.svg": {
+    "mtime": 1779656507.8585885,
+    "ast_hash": "d3f9b469ddd0979fdf7a34ffdf0d291d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-performance-audit\\assets\\icon.svg": {
+    "mtime": 1779656507.8605883,
+    "ast_hash": "9d96d8029f3a3e73c898bffd41abbf4b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-quickstart\\assets\\icon.svg": {
+    "mtime": 1779656507.8645887,
+    "ast_hash": "ee6d5a57c359c31069c6543131eecfb0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.agents\\skills\\convex-setup-auth\\assets\\icon.svg": {
+    "mtime": 1779656507.8655868,
+    "ast_hash": "5fd65f0f070bca77e1ea8ed46fbc1fd3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-create-component\\assets\\icon.svg": {
+    "mtime": 1779656507.8545802,
+    "ast_hash": "750ee31db4186a3a336f1c6376a15221",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-migration-helper\\assets\\icon.svg": {
+    "mtime": 1779656507.8585885,
+    "ast_hash": "d3f9b469ddd0979fdf7a34ffdf0d291d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-performance-audit\\assets\\icon.svg": {
+    "mtime": 1779656507.8605883,
+    "ast_hash": "9d96d8029f3a3e73c898bffd41abbf4b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-quickstart\\assets\\icon.svg": {
+    "mtime": 1779656507.8645887,
+    "ast_hash": "ee6d5a57c359c31069c6543131eecfb0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\.claude\\skills\\convex-setup-auth\\assets\\icon.svg": {
+    "mtime": 1779656507.8655868,
+    "ast_hash": "5fd65f0f070bca77e1ea8ed46fbc1fd3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\public\\convex.svg": {
+    "mtime": 1779400516.0,
+    "ast_hash": "20364a01e3ca0df13c306ce011fab625",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Ultrapc\\Desktop\\DEV\\accounty\\accounty\\convex\\organizations.ts": {
+    "mtime": 1779919594.1620567,
+    "ast_hash": "43f47d96b53b89418a72a64ee32ffabb",
+    "semantic_hash": ""
+  }
+}
