@@ -12,4 +12,11 @@ export default defineSchema({
     lastName: v.optional(v.string()),
     imageUrl: v.optional(v.string()),
   }).index("by_clerkId", ["clerkId"]),
+  organizations: defineTable({
+    clerkOrgId: v.string(),
+    name: v.string(),
+    slug: v.optional(v.string()),
+    plan: v.optional(v.string()),
+    imageUrl: v.optional(v.string()),
+  }).index("by_clerkOrgId", ["clerkOrgId"]),
 });
