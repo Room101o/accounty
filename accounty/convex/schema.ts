@@ -19,4 +19,22 @@ export default defineSchema({
     plan: v.optional(v.string()),
     imageUrl: v.optional(v.string()),
   }).index("by_clerkOrgId", ["clerkOrgId"]),
+  accounts: defineTable({
+    orgId: v.string(),
+    number: v.string(),
+    name: v.string(),
+    type: v.union(
+      v.literal("asset"),
+      v.literal("liability"),
+      v.literal("equity"),
+      v.literal("income"),
+      v.literal("expense"),
+    ),
+    description: v.optional(v.string()),
+    parentId: v.optional(v.id("accounts")),
+    normalBalance: v.union(v.literal("debit"), v.literal("credit")),
+    isActive: v.boolean(),
+  })
+    .index("by_orgId", ["orgId"])
+    .index("by_orgId_and_type", ["orgId", "type"]),
 });
