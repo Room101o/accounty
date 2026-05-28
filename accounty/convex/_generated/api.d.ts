@@ -8,7 +8,13 @@
  * @module
  */
 
+import type * as accounts from "../accounts.js";
+import type * as http from "../http.js";
+import type * as lib_auth from "../lib/auth.js";
 import type * as myFunctions from "../myFunctions.js";
+import type * as organizations from "../organizations.js";
+import type * as users from "../users.js";
+import type * as webhooks from "../webhooks.js";
 
 import type {
   ApiFromModules,
@@ -17,7 +23,13 @@ import type {
 } from "convex/server";
 
 declare const fullApi: ApiFromModules<{
+  accounts: typeof accounts;
+  http: typeof http;
+  "lib/auth": typeof lib_auth;
   myFunctions: typeof myFunctions;
+  organizations: typeof organizations;
+  users: typeof users;
+  webhooks: typeof webhooks;
 }>;
 
 /**
