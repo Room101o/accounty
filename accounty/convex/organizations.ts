@@ -38,7 +38,7 @@ export const update = internalMutation({
       .withIndex("by_clerkOrgId", (q) => q.eq("clerkOrgId", args.clerkOrgId))
       .unique();
     if (!org) return;
-    const { clerkOrgId, ...fields } = args;
+    const { clerkOrgId: _clerkOrgId, ...fields } = args;
     await ctx.db.patch(org._id, fields);
   },
 });
