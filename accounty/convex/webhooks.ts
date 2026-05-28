@@ -3,9 +3,6 @@ import { internal } from "./_generated/api";
 import { Webhook } from "svix";
 import type { WebhookEvent } from "@clerk/nextjs/server";
 
-const internalUsers = internal as any;
-const internalOrgs = internal as any;
-
 export const clerkWebhook = httpAction(async (ctx, req) => {
   const webhookSecret = process.env.CLERK_WEBHOOK_SECRET;
   if (!webhookSecret) {
@@ -44,7 +41,7 @@ export const clerkWebhook = httpAction(async (ctx, req) => {
       "";
 
     if (event.type === "user.created") {
-      await ctx.runMutation(internalUsers.users.create, {
+      await ctx.runMutation(internal.users.create, {
         clerkId: id,
         email,
         firstName: first_name ?? undefined,
@@ -52,7 +49,7 @@ export const clerkWebhook = httpAction(async (ctx, req) => {
         imageUrl: image_url ?? undefined,
       });
     } else {
-      await ctx.runMutation(internalUsers.users.update, {
+      await ctx.runMutation(internal.users.update, {
         clerkId: id,
         email,
         firstName: first_name ?? undefined,
@@ -63,14 +60,15 @@ export const clerkWebhook = httpAction(async (ctx, req) => {
   } else if (event.type === "user.deleted") {
     const { id } = event.data;
     if (id) {
-      await ctx.runMutation(internalUsers.users.remove, { clerkId: id });
+      await ctx.runMutation(internal.users.remove, { clerkId: id });
     }
   } else if (event.type === "organization.created" || event.type === "organization.updated") {
     const { id, name, slug, image_url, public_metadata } = event.data;
-    const plan = (public_metadata as Record<string, string> | null)?.plan ?? undefined;
+    const rawPlan = (public_metadata as Record<string, unknown> | null)?.plan;
+    const plan = typeof rawPlan === "string" ? rawPlan : undefined;
 
     if (event.type === "organization.created") {
-      await ctx.runMutation(internalOrgs.organizations.create, {
+      await ctx.runMutation(internal.organizations.create, {
         clerkOrgId: id,
         name,
         slug: slug ?? undefined,
@@ -78,7 +76,7 @@ export const clerkWebhook = httpAction(async (ctx, req) => {
         imageUrl: image_url ?? undefined,
       });
     } else {
-      await ctx.runMutation(internalOrgs.organizations.update, {
+      await ctx.runMutation(internal.organizations.update, {
         clerkOrgId: id,
         name,
         slug: slug ?? undefined,
@@ -89,7 +87,7 @@ export const clerkWebhook = httpAction(async (ctx, req) => {
   } else if (event.type === "organization.deleted") {
     const { id } = event.data;
     if (id) {
-      await ctx.runMutation(internalOrgs.organizations.remove, { clerkOrgId: id });
+      await ctx.runMutation(internal.organizations.remove, { clerkOrgId: id });
     }
   }
 
