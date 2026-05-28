@@ -7,6 +7,7 @@ import { Webhook } from "svix";
 import type { WebhookEvent } from "@clerk/nextjs/server";
 
 const internalUsers = internal as any;
+const internalOrgs = internal as any;
 const http = httpRouter();
 
 http.route({
@@ -70,6 +71,32 @@ http.route({
       const { id } = event.data;
       if (id) {
         await ctx.runMutation(internalUsers.users.remove, { clerkId: id });
+      }
+    } else if (event.type === "organization.created" || event.type === "organization.updated") {
+      const { id, name, slug, image_url, public_metadata } = event.data;
+      const plan = (public_metadata as Record<string, string> | null)?.plan ?? undefined;
+
+      if (event.type === "organization.created") {
+        await ctx.runMutation(internalOrgs.organizations.create, {
+          clerkOrgId: id,
+          name,
+          slug: slug ?? undefined,
+          plan,
+          imageUrl: image_url ?? undefined,
+        });
+      } else {
+        await ctx.runMutation(internalOrgs.organizations.update, {
+          clerkOrgId: id,
+          name,
+          slug: slug ?? undefined,
+          plan,
+          imageUrl: image_url ?? undefined,
+        });
+      }
+    } else if (event.type === "organization.deleted") {
+      const { id } = event.data;
+      if (id) {
+        await ctx.runMutation(internalOrgs.organizations.remove, { clerkOrgId: id });
       }
     }
 
