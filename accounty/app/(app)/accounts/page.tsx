@@ -157,6 +157,7 @@ export default function AccountsPage() {
                                 variant="ghost"
                                 size="icon"
                                 className="h-7 w-7"
+                                aria-label="Edit account"
                                 onClick={() => openEdit(account)}
                               >
                                 <Pencil className="h-3.5 w-3.5" />
@@ -165,6 +166,7 @@ export default function AccountsPage() {
                                 variant="ghost"
                                 size="icon"
                                 className="h-7 w-7 text-muted-foreground hover:text-destructive"
+                                aria-label="Archive account"
                                 onClick={() => archive({ id: account._id })}
                               >
                                 <Archive className="h-3.5 w-3.5" />

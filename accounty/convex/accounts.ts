@@ -24,7 +24,9 @@ export const list = query({
     const { orgId } = await requireOrgMember(ctx);
     return await ctx.db
       .query("accounts")
-      .withIndex("by_orgId", (q) => q.eq("orgId", orgId))
+      .withIndex("by_orgId_and_isActive", (q) =>
+        q.eq("orgId", orgId).eq("isActive", true),
+      )
       .take(500);
   },
 });
@@ -41,6 +43,10 @@ export const create = mutation({
   handler: async (ctx, args) => {
     const { orgId, orgRole } = await requireOrgMember(ctx);
     requireEditor(orgRole);
+    if (args.parentId) {
+      const parent = await ctx.db.get(args.parentId);
+      if (!parent || parent.orgId !== orgId) throw new Error("Invalid parent account");
+    }
     return await ctx.db.insert("accounts", { ...args, orgId, isActive: true });
   },
 });
@@ -60,6 +66,10 @@ export const update = mutation({
     requireEditor(orgRole);
     const account = await ctx.db.get(args.id);
     if (!account || account.orgId !== orgId) throw new Error("Not found");
+    if (args.parentId) {
+      const parent = await ctx.db.get(args.parentId);
+      if (!parent || parent.orgId !== orgId) throw new Error("Invalid parent account");
+    }
     const { id, ...fields } = args;
     await ctx.db.patch(id, fields);
   },

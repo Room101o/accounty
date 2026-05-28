@@ -53,6 +53,8 @@ type AccountFormValues = z.infer<typeof accountSchema>;
 
 type AccountType = AccountFormValues["type"];
 
+const NONE = "__none__";
+
 const DEFAULT_NORMAL_BALANCE: Record<AccountType, "debit" | "credit"> = {
   asset: "debit",
   expense: "debit",
@@ -100,7 +102,7 @@ export function AccountSheet({ open, onClose, editing }: AccountSheetProps) {
               name: editing.name,
               type: editing.type,
               description: editing.description ?? "",
-              parentId: editing.parentId ?? "",
+              parentId: editing.parentId ?? NONE,
               normalBalance: editing.normalBalance,
             }
           : {
@@ -108,7 +110,7 @@ export function AccountSheet({ open, onClose, editing }: AccountSheetProps) {
               name: "",
               type: "asset",
               description: "",
-              parentId: "",
+              parentId: NONE,
               normalBalance: "debit",
             },
       );
@@ -126,7 +128,7 @@ export function AccountSheet({ open, onClose, editing }: AccountSheetProps) {
       name: values.name,
       type: values.type,
       description: values.description || undefined,
-      parentId: (values.parentId as Id<"accounts">) || undefined,
+      parentId: values.parentId && values.parentId !== NONE ? (values.parentId as Id<"accounts">) : undefined,
       normalBalance: values.normalBalance,
     };
     if (editing) {
@@ -222,14 +224,14 @@ export function AccountSheet({ open, onClose, editing }: AccountSheetProps) {
               control={control}
               render={({ field }) => (
                 <Select
-                  value={field.value ?? ""}
-                  onValueChange={(v) => field.onChange(v ?? "")}
+                  value={field.value ?? NONE}
+                  onValueChange={(v) => field.onChange(v)}
                 >
                   <SelectTrigger id="parent">
                     <SelectValue placeholder="None (top-level)" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="">None (top-level)</SelectItem>
+                    <SelectItem value={NONE}>None (top-level)</SelectItem>
                     {parentOptions.map((a) => (
                       <SelectItem key={a._id} value={a._id}>
                         {a.number} — {a.name}

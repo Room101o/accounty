@@ -36,5 +36,6 @@ export default defineSchema({
     isActive: v.boolean(),
   })
     .index("by_orgId", ["orgId"])
-    .index("by_orgId_and_type", ["orgId", "type"]),
+    .index("by_orgId_and_type", ["orgId", "type"])
+    .index("by_orgId_and_isActive", ["orgId", "isActive"]),
 });
