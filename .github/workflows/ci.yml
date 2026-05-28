@@ -1,0 +1,85 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # ─── 1. TYPE CHECK ────────────────────────────────────────────────
+  typecheck:
+    name: TypeScript
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: accounty
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: accounty/package-lock.json
+      - run: npm ci
+      - run: npx tsc --noEmit
+
+  # ─── 2. LINT ──────────────────────────────────────────────────────
+  lint:
+    name: ESLint
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: accounty
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: accounty/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+
+  # ─── 3. BUILD ─────────────────────────────────────────────────────
+  build:
+    name: Next.js Build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: accounty
+    env:
+      # Required to satisfy Next.js env validation at build time.
+      # Use dummy values here — real secrets go in GitHub repo settings.
+      NEXT_PUBLIC_CONVEX_URL: ${{ secrets.NEXT_PUBLIC_CONVEX_URL }}
+      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY }}
+      CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: accounty/package-lock.json
+      - run: npm ci
+      - run: npm run build
+
+  # ─── 4. CONVEX UNIT TESTS ─────────────────────────────────────────
+  # Uncomment once you add vitest + convex-test:
+  #   npm install -D vitest @edge-runtime/vm convex-test
+  #
+  # convex-tests:
+  #   name: Convex Unit Tests
+  #   runs-on: ubuntu-latest
+  #   defaults:
+  #     run:
+  #       working-directory: accounty
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - uses: actions/setup-node@v4
+  #       with:
+  #         node-version: 24
+  #         cache: npm
+  #         cache-dependency-path: accounty/package-lock.json
+  #     - run: npm ci
+  #     - run: npx vitest run
